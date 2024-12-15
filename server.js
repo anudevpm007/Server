@@ -125,6 +125,28 @@ app.post("/reg", (req, res) => {
 
     })
 
+
+
+    app.get("/admin", (req, res) => {
+        connection.connect((err) => {
+            if (err) {
+                throw err;
+            }
+            console.log("/ url is running");
+            var search_CM = "SELECT * FROM `register`;"
+            connection.query(search_CM, (err, data) => {
+                if (err) {
+                    throw err;
+                }
+                // console.log(data)
+                res.send(data.map((Index,datas)=>{
+                    return Index;
+                }))
+            })
+        })
+        
+    })
+
 app.use(express.static(path.join(__dirname,'build')))
 
 app.get("*", function(request, response) {
@@ -140,24 +162,8 @@ app.get("*", function(request, response) {
 
 
 
-// })
 
-// app.get("/", (req, res) => {
-//     connection.connect((err) => {
-//         if (err) {
-//             throw err;
-//         }
-//         console.log("/ url is running");
-//         var search_CM = "SELECT Email FROM `register`"
-//         connection.query(search_CM, (err, data) => {
-//             if (err) {
-//                 throw err;
-//             }
-//             console.log(data)
-//         })
-//     })
-//     res.send("<h1>Hello world</h1>")
-// })
+
 
 
 const PORT = process.env.PORT || 3124
