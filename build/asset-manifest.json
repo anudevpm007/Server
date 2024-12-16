@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bfeef790.css",
-    "main.js": "/static/js/main.8cd8f5c8.js",
+    "main.css": "/static/css/main.8d502688.css",
+    "main.js": "/static/js/main.8db53de0.js",
     "static/js/453.b03e3c98.chunk.js": "/static/js/453.b03e3c98.chunk.js",
     "static/media/why_img_2.jpg": "/static/media/why_img_2.f9b842f6a7ba9abd0390.jpg",
     "static/media/event_box.png": "/static/media/event_box.fb750183312d24e8ba59.png",
@@ -14,12 +14,12 @@
     "static/media/image-2.jpg": "/static/media/image-2.53f56bc9e17f3e495b44.jpg",
     "static/media/Code_review.png": "/static/media/Code_review.2790af01747bba93dfff.png",
     "static/media/img1.png": "/static/media/img1.b908122c90a9f73acc55.png",
-    "static/media/logo.png": "/static/media/logo.5917238cf50896a826d3.png",
     "static/media/about_header_img1.jpg": "/static/media/about_header_img1.f0691775cbbb9ad439e9.jpg",
     "static/media/Event_image_1.jpeg": "/static/media/Event_image_1.5575f23895565d59c83b.jpeg",
     "static/media/Event_image_2.jpg": "/static/media/Event_image_2.1a63f3cfdec9a8453f66.jpg",
     "static/media/image-3.jpg": "/static/media/image-3.6938b533cad0ff6a1e25.jpg",
     "static/media/world_map3.png": "/static/media/world_map3.59e2879932dfe3514e45.png",
+    "static/media/Astraliva Logo_Main.png": "/static/media/Astraliva Logo_Main.0af850ffa9cd2d6eaa41.png",
     "static/media/image-4.png": "/static/media/image-4.a6137232539f561efd62.png",
     "static/media/pngwing.com.png": "/static/media/pngwing.com.00dc9231b5ee48dbdc5e.png",
     "static/media/img2.png": "/static/media/img2.79703934d76cc8d72cff.png",
@@ -46,12 +46,12 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.bfeef790.css.map": "/static/css/main.bfeef790.css.map",
-    "main.8cd8f5c8.js.map": "/static/js/main.8cd8f5c8.js.map",
+    "main.8d502688.css.map": "/static/css/main.8d502688.css.map",
+    "main.8db53de0.js.map": "/static/js/main.8db53de0.js.map",
     "453.b03e3c98.chunk.js.map": "/static/js/453.b03e3c98.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfeef790.css",
-    "static/js/main.8cd8f5c8.js"
+    "static/css/main.8d502688.css",
+    "static/js/main.8db53de0.js"
   ]
 }
